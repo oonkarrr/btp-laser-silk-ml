@@ -1,0 +1,5 @@
+objective,SOD_mm,LP_W,SS_mm_s,mean_sll_mm_pred_mean,mean_sll_mm_robust_bound,mean_kw_mm_pred_mean,mean_kw_mm_robust_bound,mean_cw_mm_pred_mean,mean_cw_mm_robust_bound
+minimise robust mean_sll_mm,5.5,15.3,300.0,0.1328,0.1487,0.0973,0.1105,0.1306,0.1416
+minimise robust mean_kw_mm,5.55,15.3,300.0,0.1328,0.1496,0.0972,0.1094,0.1307,0.1424
+minimise robust mean_cw_mm,5.5,15.3,300.0,0.1328,0.1487,0.0973,0.1105,0.1306,0.1416
+combined (all three),5.5,15.3,300.0,0.1328,0.1487,0.0973,0.1105,0.1306,0.1416

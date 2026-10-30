@@ -1,0 +1,68 @@
+{
+  "name": "Laser-cut quality GP models (Bombyx mori / pat silk, CO2 laser)",
+  "trained_on": "2026-10-17",
+  "data_file": "data/raw/pat_silk_table_5_4.csv",
+  "data_sha256": "ad9257197fcb55597f070a02ae86a46bd7294d7847a44116867362b0e36910e3",
+  "n_training_runs": 42,
+  "inputs": {
+    "sod_mm": [
+      4,
+      8
+    ],
+    "lp_w": [
+      15.3,
+      17.1
+    ],
+    "ss_mm_s": [
+      200,
+      300
+    ]
+  },
+  "valid_only_inside_input_ranges": true,
+  "known_weak_regions": [
+    "SOD near 4 or 8 mm (edge of data; E04 errors up to about 3x larger)",
+    "LP between tested levels 15.3/16.2/17.1 W (no data; wider sigma)",
+    "SOD > 7 mm with LP < 16.2 W (through-cut may fail; run 37-39 failed)"
+  ],
+  "outputs": {
+    "mean_sll_mm": "Side line length (nominal 10 mm)",
+    "mean_kw_mm": "Kerf width",
+    "mean_cw_mm": "Carbonisation width"
+  },
+  "targets": {
+    "mean_sll_mm": {
+      "learned_kernel": "1.33**2 * RBF(length_scale=[1.04, 1.7, 1e+03]) + WhiteKernel(noise_level=0.00179)",
+      "training_RMSE_mm": 0.00255,
+      "validation": {
+        "cellout_R2": 0.9018,
+        "cellout_RMSE_mm": 0.02305,
+        "coverage_95": 0.905
+      }
+    },
+    "mean_kw_mm": {
+      "learned_kernel": "1.07**2 * RBF(length_scale=[1.18, 0.774, 99.9]) + WhiteKernel(noise_level=0.000817)",
+      "training_RMSE_mm": 0.00146,
+      "validation": {
+        "cellout_R2": 0.9299,
+        "cellout_RMSE_mm": 0.01752,
+        "coverage_95": 0.929
+      }
+    },
+    "mean_cw_mm": {
+      "learned_kernel": "2.08**2 * RBF(length_scale=[1.49, 8.87, 1e+03]) + WhiteKernel(noise_level=0.0242)",
+      "training_RMSE_mm": 0.00272,
+      "validation": {
+        "cellout_R2": 0.949,
+        "cellout_RMSE_mm": 0.00438,
+        "coverage_95": 0.976
+      }
+    }
+  },
+  "validation_method": "Leave-one-cell-out CV (all 3 speeds of one SOD-LP combination held out); see log D08",
+  "software": {
+    "python": "3.13.16",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0"
+  }
+}

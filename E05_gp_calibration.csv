@@ -1,0 +1,4 @@
+target,coverage_68pct_interval,coverage_95pct_interval,mean_sigma_mm,RMSE_mm,worst_abs_z,worst_run_sl_no
+mean_sll_mm,0.643,0.905,0.01759,0.02305,2.14,40
+mean_kw_mm,0.667,0.929,0.01609,0.01752,2.17,9
+mean_cw_mm,0.714,0.976,0.00424,0.00438,2.26,43

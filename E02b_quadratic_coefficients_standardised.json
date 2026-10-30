@@ -1,0 +1,35 @@
+{
+  "mean_sll_mm": {
+    "sod_mm": 0.02014,
+    "lp_w": 0.03044,
+    "ss_mm_s": 0.00038,
+    "sod_mm^2": 0.05352,
+    "sod_mm lp_w": 0.00092,
+    "sod_mm ss_mm_s": 1e-05,
+    "lp_w^2": -0.00702,
+    "lp_w ss_mm_s": 0.00033,
+    "ss_mm_s^2": 0.0004
+  },
+  "mean_kw_mm": {
+    "sod_mm": 0.00498,
+    "lp_w": 0.05075,
+    "ss_mm_s": -0.00023,
+    "sod_mm^2": 0.0269,
+    "sod_mm lp_w": 0.00064,
+    "sod_mm ss_mm_s": -0.00036,
+    "lp_w^2": -0.01491,
+    "lp_w ss_mm_s": -4e-05,
+    "ss_mm_s^2": -0.00014
+  },
+  "mean_cw_mm": {
+    "sod_mm": 0.00778,
+    "lp_w": 0.00602,
+    "ss_mm_s": -6e-05,
+    "sod_mm^2": 0.01576,
+    "sod_mm lp_w": 4e-05,
+    "sod_mm ss_mm_s": -0.00069,
+    "lp_w^2": 0.00084,
+    "lp_w ss_mm_s": 0.00076,
+    "ss_mm_s^2": 0.00081
+  }
+}

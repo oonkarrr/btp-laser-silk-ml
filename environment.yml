@@ -1,0 +1,13 @@
+# Conda environment for the BTP project
+# Create it with:   conda env create -f environment.yml
+name: btp-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - ipykernel

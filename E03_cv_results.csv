@@ -1,0 +1,31 @@
+scheme,target,model,MAE_mm,RMSE_mm,R2,noise_floor_mm,RMSE_over_noise
+LOOCV,mean_sll_mm,E02b_quadratic_RSM (reference),0.03195,0.03755,0.7395,0.0048,7.83
+LOOCV,mean_sll_mm,E03a_extended_RSM,0.02734,0.03214,0.8091,0.0048,6.7
+LOOCV,mean_sll_mm,E03b_gaussian_process,0.00324,0.00381,0.9973,0.0048,0.79
+LOOCV,mean_sll_mm,E03c_random_forest,0.01333,0.01881,0.9346,0.0048,3.92
+LOOCV,mean_sll_mm,E03d_gradient_boosting,0.00564,0.00747,0.9897,0.0048,1.56
+LOOCV,mean_kw_mm,E02b_quadratic_RSM (reference),0.02057,0.02477,0.8598,0.00689,3.6
+LOOCV,mean_kw_mm,E03a_extended_RSM,0.00667,0.008,0.9854,0.00689,1.16
+LOOCV,mean_kw_mm,E03b_gaussian_process,0.00205,0.00261,0.9984,0.00689,0.38
+LOOCV,mean_kw_mm,E03c_random_forest,0.01371,0.01632,0.9391,0.00689,2.37
+LOOCV,mean_kw_mm,E03d_gradient_boosting,0.00739,0.00888,0.982,0.00689,1.29
+LOOCV,mean_cw_mm,E02b_quadratic_RSM (reference),0.0055,0.00655,0.8861,0.00617,1.06
+LOOCV,mean_cw_mm,E03a_extended_RSM,0.00514,0.00631,0.8942,0.00617,1.02
+LOOCV,mean_cw_mm,E03b_gaussian_process,0.003,0.00351,0.9673,0.00617,0.57
+LOOCV,mean_cw_mm,E03c_random_forest,0.0036,0.00453,0.9456,0.00617,0.73
+LOOCV,mean_cw_mm,E03d_gradient_boosting,0.00343,0.00396,0.9583,0.00617,0.64
+LOCO_cell_out,mean_sll_mm,E02b_quadratic_RSM (reference),0.0444,0.05339,0.4733,0.0048,11.13
+LOCO_cell_out,mean_sll_mm,E03a_extended_RSM,0.29679,0.42824,-32.8856,0.0048,89.26
+LOCO_cell_out,mean_sll_mm,E03b_gaussian_process,0.01788,0.02305,0.9018,0.0048,4.8
+LOCO_cell_out,mean_sll_mm,E03c_random_forest,0.03496,0.04482,0.6288,0.0048,9.34
+LOCO_cell_out,mean_sll_mm,E03d_gradient_boosting,0.03192,0.03952,0.7114,0.0048,8.24
+LOCO_cell_out,mean_kw_mm,E02b_quadratic_RSM (reference),0.02948,0.03664,0.6933,0.00689,5.32
+LOCO_cell_out,mean_kw_mm,E03a_extended_RSM,0.09847,0.13429,-3.1212,0.00689,19.5
+LOCO_cell_out,mean_kw_mm,E03b_gaussian_process,0.01271,0.01752,0.9299,0.00689,2.54
+LOCO_cell_out,mean_kw_mm,E03c_random_forest,0.03498,0.04115,0.6131,0.00689,5.97
+LOCO_cell_out,mean_kw_mm,E03d_gradient_boosting,0.02811,0.03312,0.7493,0.00689,4.81
+LOCO_cell_out,mean_cw_mm,E02b_quadratic_RSM (reference),0.00728,0.00854,0.8066,0.00617,1.38
+LOCO_cell_out,mean_cw_mm,E03a_extended_RSM,0.04662,0.06482,-10.1492,0.00617,10.5
+LOCO_cell_out,mean_cw_mm,E03b_gaussian_process,0.00326,0.00438,0.949,0.00617,0.71
+LOCO_cell_out,mean_cw_mm,E03c_random_forest,0.00551,0.00707,0.8674,0.00617,1.15
+LOCO_cell_out,mean_cw_mm,E03d_gradient_boosting,0.00365,0.00463,0.943,0.00617,0.75

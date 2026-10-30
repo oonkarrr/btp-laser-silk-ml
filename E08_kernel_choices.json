@@ -1,0 +1,34 @@
+{
+  "mean_sll_mm":{
+    "RBF":14,
+    "full_data_LML_winner":"RBF",
+    "full_data_LML":{
+      "RBF":29.54,
+      "Matern_2.5":28.01,
+      "Matern_1.5":27.15,
+      "RationalQuadratic":-23.46
+    }
+  },
+  "mean_kw_mm":{
+    "RBF":13,
+    "Matern_2.5":1,
+    "full_data_LML_winner":"RBF",
+    "full_data_LML":{
+      "RBF":39.25,
+      "Matern_2.5":37.93,
+      "Matern_1.5":37.15,
+      "RationalQuadratic":-15.8
+    }
+  },
+  "mean_cw_mm":{
+    "RBF":11,
+    "Matern_2.5":3,
+    "full_data_LML_winner":"RBF",
+    "full_data_LML":{
+      "RBF":0.92,
+      "Matern_2.5":-0.45,
+      "Matern_1.5":-2.05,
+      "RationalQuadratic":-27.47
+    }
+  }
+}

@@ -1,0 +1,10 @@
+target,model,LOOCV_MAE_mm,LOOCV_RMSE_mm,LOOCV_R2,noise_floor_mm,RMSE_over_noise
+mean_sll_mm,E01_mean_baseline,0.07038,0.07536,-0.0494,0.0048,15.71
+mean_sll_mm,E02a_linear,0.05434,0.06179,0.2945,0.0048,12.88
+mean_sll_mm,E02b_quadratic_RSM,0.03195,0.03755,0.7395,0.0048,7.83
+mean_kw_mm,E01_mean_baseline,0.05151,0.06776,-0.0494,0.00689,9.84
+mean_kw_mm,E02a_linear,0.02983,0.03632,0.6985,0.00689,5.27
+mean_kw_mm,E02b_quadratic_RSM,0.02057,0.02477,0.8598,0.00689,3.6
+mean_cw_mm,E01_mean_baseline,0.01641,0.01988,-0.0494,0.00617,3.22
+mean_cw_mm,E02a_linear,0.01455,0.01637,0.2885,0.00617,2.65
+mean_cw_mm,E02b_quadratic_RSM,0.0055,0.00655,0.8861,0.00617,1.06

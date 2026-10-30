@@ -1,0 +1,16 @@
+target,kernel,cellout_RMSE_mm,cellout_R2
+mean_sll_mm,RBF,0.02305,0.9018
+mean_sll_mm,Matern_2.5,0.02908,0.8437
+mean_sll_mm,Matern_1.5,0.03319,0.7965
+mean_sll_mm,RationalQuadratic,0.01923,0.9317
+mean_sll_mm,nested_LML_selection,0.02305,0.9018
+mean_kw_mm,RBF,0.01752,0.9299
+mean_kw_mm,Matern_2.5,0.01996,0.9089
+mean_kw_mm,Matern_1.5,0.02399,0.8685
+mean_kw_mm,RationalQuadratic,0.01811,0.925
+mean_kw_mm,nested_LML_selection,0.01986,0.9098
+mean_cw_mm,RBF,0.00438,0.949
+mean_cw_mm,Matern_2.5,0.00335,0.9702
+mean_cw_mm,Matern_1.5,0.00351,0.9673
+mean_cw_mm,RationalQuadratic,0.00666,0.8822
+mean_cw_mm,nested_LML_selection,0.00335,0.9702

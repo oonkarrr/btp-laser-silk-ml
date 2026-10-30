@@ -1,0 +1,20 @@
+{
+  "mean_sll_mm": {
+    "sod_mm": 1.037,
+    "lp_w": 1.703,
+    "ss_mm_s": 1000.0,
+    "noise_sd_mm": 0.00315
+  },
+  "mean_kw_mm": {
+    "sod_mm": 1.176,
+    "lp_w": 0.774,
+    "ss_mm_s": 99.873,
+    "noise_sd_mm": 0.00191
+  },
+  "mean_cw_mm": {
+    "sod_mm": 1.495,
+    "lp_w": 8.872,
+    "ss_mm_s": 1000.0,
+    "noise_sd_mm": 0.00305
+  }
+}
